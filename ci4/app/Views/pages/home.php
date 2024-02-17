@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
     <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css');?>" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&amp;display=swap"
@@ -32,9 +32,9 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&amp;display=swap"
     />
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css" />
-    <link rel="stylesheet" href="assets/css/Banner-Heading-Image-images.css" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/fonts/font-awesome.min.css');?>" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/fonts/simple-line-icons.min.css');?>" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/Banner-Heading-Image-images.css');?>" />
   </head>
 
   <body id="page-top">
@@ -77,7 +77,7 @@
     </nav>
     <header
       class="d-flex masthead"
-      style="background: url('assets/img/Azure%20Pop.jpg')"
+      style="background: url('<?php echo base_url('assets/img/Azure%20Pop.jpg');?>"
     >
       <div class="container my-auto text-center">
         <h1
@@ -209,7 +209,7 @@
           <div class="col" style="display: flex; border-radius: 15px">
             <picture
               ><img
-                src="assets/img/416980605_389182816933183_8866666184519171758_n%20(1).jpg"
+                src="<?php echo base_url('assets/img/416980605_389182816933183_8866666184519171758_n%20(1).jpg');?>"
                 style="
                   display: flex;
                   justify-content: right;
@@ -230,7 +230,7 @@
     <section
       id="services"
       class="content-section bg-primary text-white text-center"
-      style="background: url('assets/img/Azure%20Pop.jpg')"
+      style="background: url('<?php echo base_url('assets/img/Azure%20Pop.jpg');?>"
     >
       <div class="container">
         <div class="content-section-heading">
@@ -299,7 +299,7 @@
               rgba(255, 255, 255, 0.1) 100%
             )
             center center / cover no-repeat,
-          url('assets/img/Azure%20Pop.jpg');
+          url('<?php echo base_url('assets/img/Azure%20Pop.jpg');?>;
       "
     >
       <div class="container text-center">
@@ -329,14 +329,14 @@
             <a class="portfolio-item" href="#">
               <div
                 class="caption"
-                style="background: url('assets/img/Untitled%20design.jpg')"
+                style="background: url('<?php echo base_url('assets/img/Untitled%20design.jpg');?>
               >
                 <div class="caption-content">
                   <h2>XXXXXXXXXXXXXX</h2>
                   <p class="mb-0">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
                 </div>
               </div>
-              <img class="img-fluid" src="assets/img/portfolio-1.jpg" />
+              <img class="img-fluid" src="<?php echo base_url('assets/img/portfolio-1.jpg');?>
             </a>
           </div>
           <div class="col-lg-6">
@@ -344,7 +344,7 @@
               <div
                 class="caption"
                 style="
-                  background: url('assets/img/F339C5E0-B428-401C-A739-84A7A0DE5469.jpg');
+                  background: url('<?php echo base_url('assets/img/F339C5E0-B428-401C-A739-84A7A0DE5469.jpg');?>;
                 "
               >
                 <div class="caption-content">
@@ -352,7 +352,7 @@
                   <p class="mb-0">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
                 </div>
               </div>
-              <img class="img-fluid" src="assets/img/portfolio-2.jpg" />
+              <img class="img-fluid" src="<?php echo base_url('assets/img/portfolio-2.jpg');?>" />
             </a>
           </div>
           <div class="col-lg-6">
@@ -360,7 +360,7 @@
               <div
                 class="caption"
                 style="
-                  background: url('assets/img/821D2F2E-8DA1-4935-BB2E-665B1CD1ABB7.jpg');
+                  background: url('<?php echo base_url('assets/img/821D2F2E-8DA1-4935-BB2E-665B1CD1ABB7.jpg');?>;
                 "
               >
                 <div class="caption-content">
@@ -368,7 +368,7 @@
                   <p class="mb-0">XXXXXXXXXXXXXXXXX</p>
                 </div>
               </div>
-              <img class="img-fluid" src="assets/img/portfolio-3.jpg" />
+              <img class="img-fluid" src="<?php echo base_url('assets/img/portfolio-3.jpg');?>" />
             </a>
           </div>
           <div class="col-lg-6">
@@ -376,7 +376,7 @@
               <div
                 class="caption"
                 style="
-                  background: url('assets/img/7B153AA7-68D7-4E37-9D3B-FA92DEA165CB.jpg');
+                  background: url('<?php echo base_url('assets/img/7B153AA7-68D7-4E37-9D3B-FA92DEA165CB.jpg');?>;
                 "
               >
                 <div class="caption-content">
@@ -384,7 +384,7 @@
                   <p class="mb-0">XXXXXXXXXXXXXXXXXXX</p>
                 </div>
               </div>
-              <img class="img-fluid" src="assets/img/portfolio-4.jpg" />
+              <img class="img-fluid" src="<?php echo base_url('assets/img/portfolio-4.jpg');?>" />
             </a>
           </div>
         </div>
@@ -483,7 +483,7 @@
     mySecond();
   </script>
 </footer>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/stylish-portfolio.js"></script>
+<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js');?>"></script>
+<script src="<?php echo base_url('assets/js/stylish-portfolio.js');?>"></script>
 </body>
 </html>
